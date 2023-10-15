@@ -1,0 +1,136 @@
+/* FilterQuestion.css */
+
+/* Global Styles */
+body {
+    background-color: #f0f5f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Filter Section */
+  .filter {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #888888;
+  }
+  
+  .filter h5 {
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .filter input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .filter button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  }
+  
+  .filter button:hover {
+    background-color: #005aa7;
+  }
+  
+  /* New Question Section */
+  .newQuestion {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #888888;
+  }
+  
+  .newQuestion h5 {
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .newQuestion input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .newQuestion button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .newQuestion button:hover {
+    background-color: #005aa7;
+  }
+  
+  /* Questions Section */
+  .card {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #888888;
+  }
+  
+  .card h2 {
+    color: #0073e6;
+  }
+  
+  .card button {
+    background-color: #ff5e62;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .card button:hover {
+    background-color: #ff3336;
+  }
+  
+  .card button:nth-child(2) {
+    background-color: #0073e6;
+  }
+  
+  .card button:nth-child(2):hover {
+    background-color: #005aa7;
+  }
+  
+  .card h3 {
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #333;
+  }
+  
+  .box{
+    border:2px solid black;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+  }
